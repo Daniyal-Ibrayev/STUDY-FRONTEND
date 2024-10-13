@@ -13,3 +13,19 @@ Each group should create an HTML form that contains:
 2. CSS Style the Quiz Form (style.css)
 3. JavaScript (script.js):
 The JavaScript will check the answers, calculate the score, and display the result.
+
+Questions:
+1. Which of these methods is used to write text in the browser's console?
+    - console.log() (+)
+    - console.print()
+    - console.write()
+2. Which keyword is used to declare a variable in JavaScript?
+    - var
+    - let
+    - cont
+    - all of the above (+)
+3. Which data type is not exist in JavaScript?
+    - bool (+)
+    - bigint
+    - symbol
+    - number
