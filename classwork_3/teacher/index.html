@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Quiz</title>
+</head>
+<body>
+    <h2>JavaScript Quiz</h2>
+
+    <form id="quizForm">
+        <div class="question">
+            <label for="q1">1. Which of these methods is used to write text in the browser's console?</label>
+            <div class="inputs">
+                <input type="radio" name="q1" value="correct">
+                <p>console.log()</p>
+            </div>
+            <div class="inputs">
+                <input type="radio" name="q1" value="wrong">
+                <p>console.print()</p>
+            </div> 
+            <div class="inputs">
+                <input type="radio" name="q1" value="wrong">
+                <p>console.write()</p>
+            </div>
+        </div>
+
+        <div class="question">
+            <label for="q2">2. Which keyword is used to declare a variable in JavaScript?</label>
+            <div class="inputs">
+                <input type="radio" name="q2" value="wrong">
+                <p>var</p>
+            </div>
+            <div class="inputs">
+                <input type="radio" name="q2" value="wrong">
+                <p>let</p>
+            </div> 
+            <div class="inputs">
+                <input type="radio" name="q2" value="wrong">
+                <p>const</p>
+            </div>
+            <div class="inputs">
+                <input type="radio" name="q2" value="correct">
+                <p>all of the above</p>
+            </div>
+        </div>
+
+        <div class="question">
+            <label for="q3">3. Which data type is not exist in JavaScript?</label>
+            <div class="inputs">
+                <input type="radio" name="q3" value="correct">
+                <p>bool</p>
+            </div>
+            <div class="inputs">
+                <input type="radio" name="q3" value="wrong">
+                <p>bigint</p>
+            </div> 
+            <div class="inputs">
+                <input type="radio" name="q3" value="wrong">
+                <p>symbol</p>
+            </div>
+            <div class="inputs">
+                <input type="radio" name="q3" value="wrong">
+                <p>number</p>
+            </div>
+
+        </div>
+        
+        <div class="question">
+            <label for="yourName">4. What is your name?</label>
+            <input id="yourName" type="text" name="yourName">
+        </div>
+
+        <button type="submit" id="button">Submit Quiz</button>
+    </form>
+
+    <div id="result">
+        <span id="resultText"></span>
+        <img id="resultPicture"/>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
