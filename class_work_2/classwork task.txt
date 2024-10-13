@@ -1,0 +1,14 @@
+Classwork Task: Interactive Quiz Form
+Objective:
+Students will work in pairs or small groups to create an interactive quiz form using HTML, CSS, and JavaScript. The form will collect answers from the user, validate them, and calculate a score at the end.
+
+Task Steps:
+1. HTML Form for Quiz (index.html):
+Each group should create an HTML form that contains:
+- Three multiple-choice questions (radio buttons or checkboxes).
+- A text input for an additional question (e.g., a short answer).
+- A "Submit" button.
+
+2. CSS Style the Quiz Form (style.css)
+3. JavaScript (script.js):
+The JavaScript will check the answers, calculate the score, and display the result.
