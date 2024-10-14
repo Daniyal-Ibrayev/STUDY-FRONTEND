@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
 </head>
 <body>
-    
+    <div class="card">
+        <form id="login">
+            <div class="title">
+                <span>Login</span>
+            </div>
+            <div class="yourname">
+                <input type="text" placeholder="Name" id="name"> 
+            </div>
+            <div class="user">
+                <input type="text" placeholder="Email or phone" id="email">
+            </div>
+            <div class="password">
+                <input type="password" placeholder="Password" id="password">
+            </div>
+            <div class="submit">
+                <button type="submit" id="button">Go</button>
+            </div>
+        </form>
+
+        <div id="error">
+            <span id="errorText"></span>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
