@@ -1,0 +1,21 @@
+Task: Simple Form Validation
+Objective:
+Create a simple webpage with a form that collects user input (name, email, password) and validates the data using JavaScript before submission.
+Display error messages if the input is invalid.
+
+1. HTML Form:
+Create a basic HTML form that contains:
+- A text input for the user's name.
+- An email input for the user's email address.
+- A password input for the user's password.
+- A "Submit" button.
+
+2. Style the Form (CSS)
+3. JavaScript (script.js):
+Add JavaScript to validate the inputs when the form is submitted. 
+The rules should include:
+- Name must not be empty and should be at least 3 characters long.
+- Email must be in a valid email format.
+- Password must be at least 6 characters long.
+- If validation fails, display error messages under the form.
+

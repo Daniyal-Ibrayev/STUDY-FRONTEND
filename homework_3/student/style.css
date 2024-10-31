@@ -1,0 +1,67 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: rgb(188, 244, 225);
+}
+
+.card {
+    width: 400px;
+    height: 330px;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.title {
+    line-height: 60px;
+    background-color: rgb(90, 146, 146);
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.yourname {
+    padding: 20px 25px 20px 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+input {
+    padding: 5px;
+}
+
+.user {
+    padding: 2px 25px 20px 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.password {
+    padding: 10px 25px 20px 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.submit {
+    padding: 10px 25px 20px 30px;
+    text-align: center;
+}
+
+#button {
+    width: 100px;
+    border-radius: 5px;
+    font-size: small;
+    padding: 4px 6px;
+}
+
+#error {
+    margin-top: 20px;
+    color: red;
+}
