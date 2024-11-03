@@ -6,7 +6,7 @@ let applyTax = true;
 basePrice ??= 500;
 
 if (subscriptionType === "premium") {
-    basePrice += (basePrice / 100 * 50);z
+    basePrice += (basePrice / 100 * 50);
 } else if (subscriptionType !== "standard") {
     subscriptionType = "basic";
     basePrice -= (basePrice / 100 * 20); // 2 - 10 = -8   10 - 2 = 8 basePrice = 10, basePrice/100 * 20 = 2
