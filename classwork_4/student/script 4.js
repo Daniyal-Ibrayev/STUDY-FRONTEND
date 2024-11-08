@@ -1,4 +1,4 @@
-function calculateBeatPrice(tariff, discount) {
+function calculateBeatPrice2(tariff, discount) {
     var result;
     switch (tariff) {
         case "basic":
