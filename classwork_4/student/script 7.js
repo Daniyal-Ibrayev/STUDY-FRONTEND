@@ -7,4 +7,4 @@ return (length * width);
 
 }
 
-console.log(calculateRectangleArea (10, 10));
+console.log(calculateRectangleArea(10, 10));

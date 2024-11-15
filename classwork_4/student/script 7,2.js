@@ -13,4 +13,4 @@ let finalAmount = purchaseAmount - (purchaseAmount * discount);
 return (`Итоговая сумма со скидкой: ${finalAmount}`);
 }
 
-console.log(calculateDiscount (1500, 14 ));
+console.log(calculateDiscount(1500, 14 ));
